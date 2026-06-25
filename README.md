@@ -1,5 +1,5 @@
 <p align="center">
-<img width="945" height="296.5" alt="banner_flarion" src="https://github.com/user-attachments/assets/f8d7f6d6-36b3-4cfa-b20f-39999fef9a57" />
+<img width="3780" height="1186" alt="banner_flarion" src="https://github.com/user-attachments/assets/f8d7f6d6-36b3-4cfa-b20f-39999fef9a57" />
 Flarion is a ML framework to *Forecast*, *Nowcast* and *Classify* solar flares into X,M or C classes
 
 
