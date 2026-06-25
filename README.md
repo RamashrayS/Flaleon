@@ -35,6 +35,7 @@ Feature_count: **227**
 
 ##
 
-*Read ABOUT.md for more scientific details regarding the project.*
+*Read [ABOUT.md]<https://github.com/RamashrayS/Flaleon/blob/main/ABOUT.md> for more scientific details regarding the project.*
+*Read [INSTALLATION.md]<https://github.com/RamashrayS/Flaleon/blob/main/INSTALLATION.md> for the setup guide.*
 
 
