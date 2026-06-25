@@ -32,7 +32,7 @@ Feature_count: **227**
 
 ## Models used:
 
-- Random Forest (RF)
+- Random Forest
 - XGBoost
 - LightGBM
 - Catboost
