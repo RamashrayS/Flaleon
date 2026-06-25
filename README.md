@@ -37,9 +37,9 @@ Feature_count: **227**
 **Random Forest**  
 Metrics from the latest run:  
 
-<img alt="Random_FOrest_metrics" src="https://github.com/user-attachments/assets/cc73fb1c-7c8f-41f3-815b-b3e5046b5368" width="50%"/>
+<img alt="Random_FOrest_metrics" src="https://github.com/user-attachments/assets/cc73fb1c-7c8f-41f3-815b-b3e5046b5368" width="70%"/>  
 
-
+---
 
 *Read [ABOUT.md](https://github.com/RamashrayS/Flaleon/blob/main/ABOUT.md) for more scientific details regarding the project.*  
 *Read [INSTALLATION.md](https://github.com/RamashrayS/Flaleon/blob/main/INSTALLATION.md) for the setup guide.*
