@@ -145,10 +145,3 @@ Use the inference script to predict on any target day folder in `data/raw`:
 
 ---
 
-## 🚀 Future Work & Architecture Roadmap
-
-The project is structured to easily integrate future features without core refactoring:
-1. **Multi-Payload Ensembles:** Easy extension to incorporate SUIT (UV imaging), ASPEX (solar wind particles), and PAPA payloads.
-2. **Spectral Fitting:** Computing coronal temperatures and emission measures dynamically from spectra files (`.pi.gz`).
-3. **External Magnetograms:** Incorporating SDO/HMI active region magnetograms as spatial features.
-4. **Deep Learning Integration:** Transitioning from baseline tabular estimators to temporal architectures (LSTMs, GRUs, or Transformers) once multi-month data builds are completed.
