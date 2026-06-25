@@ -33,7 +33,12 @@ Feature_count: **227**
 - LightGBM
 - Catboost
 
-##
+### Best Model:
+**Random Forest**
+Metrics from the latest run:
+<img width="1412" height="1080" alt="Screenshot from 2026-06-25 20-22-34" src="https://github.com/user-attachments/assets/cc73fb1c-7c8f-41f3-815b-b3e5046b5368" />
+
+
 
 *Read [ABOUT.md](https://github.com/RamashrayS/Flaleon/blob/main/ABOUT.md) for more scientific details regarding the project.*
 *Read [INSTALLATION.md](https://github.com/RamashrayS/Flaleon/blob/main/INSTALLATION.md) for the setup guide.*
