@@ -9,7 +9,7 @@ The models are trained on:
 - SoLEXS (Solar Low Energy X-ray Spectrometer) &
 - HEL1OS (High Energy L1 Orbiting X-ray Spectrometer)
 
-sent by [AdityaL1](https://www.isro.gov.in/Aditya_L1.html). (available for download from the [ISSDC](https://pradan1.issdc.gov.in/al1/) portal)
+sent by [AdityaL1](https://www.isro.gov.in/Aditya_L1.html) (available for download from the [ISSDC](https://pradan1.issdc.gov.in/al1/) portal)
 
 The training set was of 30 days (not continuous, the dates were particularly picked to make sure the models are fed healthy amounts of X,M,C class flares and quiet days)
 
