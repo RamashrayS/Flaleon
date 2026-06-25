@@ -103,8 +103,15 @@ pip install -r requirements.txt
 
 ## ⚡ Usage Examples
 
+### Running the Interactive Web Dashboard
+To start the interactive Web Dashboard for running live predictions, uploading custom FITS files, viewing interactive plots, and exploring model leaderboards, run:
+
+```bash
+streamlit run app.py
+```
+
 ### Running the End-to-End Pipeline
-You can run the entire data preprocessing, labeling, model training, and inference verification steps with:
+To run the entire data preprocessing, labeling, model training, and model comparison reports on local files, run:
 
 ```bash
 python3 run_pipeline.py
