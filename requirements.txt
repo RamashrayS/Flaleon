@@ -11,5 +11,3 @@ scipy
 matplotlib
 joblib
 pyarrow
-streamlit
-
