@@ -1,7 +1,14 @@
 <p align="center">
-<img width="3780" height="1186" alt="banner_flarion" src="https://github.com/user-attachments/assets/f8d7f6d6-36b3-4cfa-b20f-39999fef9a57" />
+<img width="3780" height="1890" alt="banner_flarion(1)" src="https://github.com/user-attachments/assets/4f7a9196-b45c-4d79-ad74-ceb16b169a3d" />
 Flarion is a ML framework to *Forecast*, *Nowcast* and *Classify* solar flares into X,M or C classes
 
+## Data
+The models are trained on:
+- SoLEXS (Solar Low Energy X-ray Spectrometer) &
+- HEL1OS (High Energy L1 Orbiting X-ray Spectrometer)
+sent by AdityaL1. (available for download from the ISSDC portal)
+
+*Read About.md for more scientific details regarding the project.
 
 ## 🌌 Scientific Motivation
 
