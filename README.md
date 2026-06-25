@@ -2,9 +2,8 @@
 <img width="3780" height="1186" alt="banner_flarion" src="https://github.com/user-attachments/assets/f8d7f6d6-36b3-4cfa-b20f-39999fef9a57" />
 
 
-An automated, research-grade machine learning pipeline for detecting, nowcasting, and forecasting solar flares using soft and hard X-ray observations from the **Aditya-L1** satellite payloads: **SoLEXS** and **HEL1OS**.
+Flarion is a ML framework to *Forecast*, *Nowcast* and *Classify* solar flares into X,M or C classes
 
----
 
 ## 🌌 Scientific Motivation
 
