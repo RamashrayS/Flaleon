@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 <p align="center">
 <img width="3780" height="1890" alt="banner_flarion(1)" src="https://github.com/user-attachments/assets/4f7a9196-b45c-4d79-ad74-ceb16b169a3d" />
 Flarion is a ML framework to Forecast, Nowcast and Classify solar flares into X,M or C classes
+=======
+# Flaleon: Solar Flare Forecasting System (solarflare-ai)
+>>>>>>> fd579fc (Rename: project rebranded to Flaleon)
 
 ## Data used
 

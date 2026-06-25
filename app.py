@@ -13,7 +13,7 @@ from src.inference.predict import predict_on_day
 
 # Page Configuration
 st.set_page_config(
-    page_title="Flarion AI - Aditya-L1 Solar Flare Hub",
+    page_title="Flaleon - Aditya-L1 Solar Flare Hub",
     page_icon="🌞",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -23,7 +23,7 @@ st.set_page_config(
 st.markdown("""
 <div style="background: linear-gradient(135deg, #1e1b4b, #311042); padding: 30px; border-radius: 20px; text-align: center; margin-bottom: 30px; border: 1px solid #4c1d95; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);">
     <h1 style="color: #f5f3ff; margin: 0; font-family: 'Outfit', 'Inter', sans-serif; font-size: 3rem; font-weight: 800; letter-spacing: -0.05em; text-shadow: 0 4px 6px rgba(0,0,0,0.3);">
-        🌞 Flarion
+        🌞 Flaleon
     </h1>
     <p style="color: #c084fc; margin: 10px 0 0 0; font-size: 1.25rem; font-weight: 500; opacity: 0.9;">
         Aditya-L1 Solar Flare Forecasting & Analytics Hub
