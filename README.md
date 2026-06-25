@@ -21,10 +21,10 @@ Out of 30 days:
 
 *The dates were picked from 2024, 2025 and 2026 according to the solar flares news on the internet.*
 
-Total Raw data size: **39.8** GB
-Total size of final csv datset produced: **6.9** GB
-Row_count: **2592000**
-Feature_count: **227**
+Total Raw data size: **39.8** GB  
+Total size of final csv datset produced: **6.9** GB  
+Row_count: **2592000**  
+Feature_count: **227**  
 
 ## Models used:
 
