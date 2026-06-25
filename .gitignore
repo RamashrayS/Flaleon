@@ -96,4 +96,7 @@ catboost_info/
 .DS_Store
 current.md
 
-
+# Local diagnostics, tests, and scratch files
+scratch/
+scripts/
+tests/
