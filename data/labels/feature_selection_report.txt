@@ -1,0 +1,240 @@
+==================================================
+FEATURE SELECTION REPORT
+Timestamp: 2026-06-25 13:56:09.856191
+==================================================
+Initial feature count: 220
+Dropped duplicate features (0): []
+Dropped constant/near-constant features (0): []
+Dropped highly correlated features (> 0.95) (95):
+  - hardness_ratio_roll_std_60s dropped (correlated with hardness_ratio_roll_mean_60s, correlation=0.950)
+  - solexs_counts dropped (correlated with solexs_counts_ema_10s, correlation=1.000)
+  - solexs_counts_ema_10s dropped (correlated with solexs_counts_ema_30s, correlation=0.999)
+  - solexs_counts_ema_30s dropped (correlated with solexs_counts_ema_60s, correlation=0.999)
+  - solexs_counts_ema_60s dropped (correlated with solexs_counts_ema_300s, correlation=0.976)
+  - solexs_counts_roll_mean_30s dropped (correlated with solexs_counts_ema_300s, correlation=0.967)
+  - solexs_counts_roll_median_30s dropped (correlated with solexs_counts_ema_300s, correlation=0.967)
+  - solexs_counts_roll_min_30s dropped (correlated with solexs_counts_ema_300s, correlation=0.970)
+  - solexs_counts_roll_max_30s dropped (correlated with solexs_counts_ema_300s, correlation=0.964)
+  - solexs_counts_roll_std_30s dropped (correlated with solexs_counts_roll_range_30s, correlation=0.960)
+  - solexs_counts_roll_rms_30s dropped (correlated with solexs_counts_ema_300s, correlation=0.967)
+  - solexs_counts_roll_mean_60s dropped (correlated with solexs_counts_ema_300s, correlation=0.974)
+  - solexs_counts_roll_median_60s dropped (correlated with solexs_counts_ema_300s, correlation=0.973)
+  - solexs_counts_roll_min_60s dropped (correlated with solexs_counts_ema_300s, correlation=0.978)
+  - solexs_counts_roll_max_60s dropped (correlated with solexs_counts_ema_300s, correlation=0.967)
+  - solexs_counts_roll_std_60s dropped (correlated with solexs_counts_roll_range_60s, correlation=0.968)
+  - solexs_counts_roll_rms_60s dropped (correlated with solexs_counts_ema_300s, correlation=0.973)
+  - solexs_counts_roll_mean_300s dropped (correlated with solexs_counts_ema_300s, correlation=0.993)
+  - solexs_counts_roll_median_300s dropped (correlated with solexs_counts_ema_300s, correlation=0.987)
+  - solexs_counts_roll_max_300s dropped (correlated with solexs_counts_ema_300s, correlation=0.977)
+  - solexs_counts_roll_std_300s dropped (correlated with solexs_counts_roll_range_300s, correlation=0.951)
+  - solexs_counts_roll_rms_300s dropped (correlated with solexs_counts_ema_300s, correlation=0.994)
+  - solexs_counts_slope_60s dropped (correlated with solexs_counts_ema_diff_10_60s, correlation=0.955)
+  - solexs_counts_acceleration_30s dropped (correlated with solexs_counts_acceleration_60s, correlation=0.978)
+  - solexs_counts_lag_10s dropped (correlated with solexs_counts_ema_300s, correlation=0.965)
+  - solexs_counts_lag_30s dropped (correlated with solexs_counts_ema_300s, correlation=0.974)
+  - solexs_counts_lag_60s dropped (correlated with solexs_counts_ema_300s, correlation=0.984)
+  - solexs_counts_roll_min_300s dropped (correlated with solexs_counts_lag_300s, correlation=0.968)
+  - solexs_counts_roll_skew_60s dropped (correlated with solexs_counts_roll_cv_60s, correlation=0.986)
+  - solexs_counts_roll_kurt_60s dropped (correlated with solexs_counts_roll_cv_60s, correlation=0.973)
+  - solexs_counts_roll_skew_300s dropped (correlated with solexs_counts_roll_cv_300s, correlation=0.990)
+  - helios_counts dropped (correlated with helios_counts_ema_10s, correlation=0.995)
+  - helios_counts_ema_10s dropped (correlated with helios_counts_ema_30s, correlation=0.998)
+  - helios_counts_ema_30s dropped (correlated with helios_counts_ema_60s, correlation=0.997)
+  - helios_counts_roll_mean_30s dropped (correlated with helios_counts_ema_60s, correlation=0.996)
+  - helios_counts_roll_median_30s dropped (correlated with helios_counts_ema_60s, correlation=0.995)
+  - helios_counts_roll_min_30s dropped (correlated with helios_counts_ema_60s, correlation=0.972)
+  - helios_counts_ema_60s dropped (correlated with helios_counts_roll_max_30s, correlation=0.990)
+  - helios_counts_roll_range_30s dropped (correlated with helios_counts_roll_std_30s, correlation=0.963)
+  - helios_counts_roll_rms_30s dropped (correlated with helios_counts_roll_max_30s, correlation=0.997)
+  - helios_counts_roll_mean_60s dropped (correlated with helios_counts_roll_max_30s, correlation=0.989)
+  - helios_counts_ma_ratio_60s dropped (correlated with helios_counts_ma_ratio_30s, correlation=0.977)
+  - helios_counts_peak_prom_60s dropped (correlated with helios_counts_peak_prom_30s, correlation=0.976)
+  - helios_counts_roll_median_60s dropped (correlated with helios_counts_roll_max_30s, correlation=0.988)
+  - helios_counts_roll_max_30s dropped (correlated with helios_counts_roll_max_60s, correlation=0.999)
+  - helios_counts_roll_range_60s dropped (correlated with helios_counts_roll_std_60s, correlation=0.969)
+  - helios_counts_roll_min_60s dropped (correlated with helios_counts_roll_rms_60s, correlation=0.960)
+  - helios_counts_roll_rms_60s dropped (correlated with helios_counts_roll_max_60s, correlation=0.994)
+  - helios_counts_roll_cv_30s dropped (correlated with helios_counts_roll_cv_60s, correlation=0.965)
+  - helios_counts_roll_mean_300s dropped (correlated with helios_counts_ema_300s, correlation=0.980)
+  - helios_counts_roll_median_300s dropped (correlated with helios_counts_ema_300s, correlation=0.953)
+  - helios_counts_ema_300s dropped (correlated with helios_counts_roll_max_300s, correlation=0.962)
+  - helios_counts_roll_max_60s dropped (correlated with helios_counts_roll_max_300s, correlation=0.951)
+  - helios_counts_roll_std_300s dropped (correlated with helios_counts_roll_range_300s, correlation=0.969)
+  - helios_counts_roll_range_300s dropped (correlated with helios_counts_roll_max_300s, correlation=0.987)
+  - helios_counts_roll_rms_300s dropped (correlated with helios_counts_roll_max_300s, correlation=0.973)
+  - helios_counts_lag_30s dropped (correlated with helios_counts_lag_10s, correlation=0.976)
+  - helios_counts_roll_cv_60s dropped (correlated with helios_counts_roll_skew_60s, correlation=0.954)
+  - helios_counts_roll_skew_300s dropped (correlated with helios_counts_roll_cv_300s, correlation=0.957)
+  - helios_counts_rise_ratio_60s dropped (correlated with helios_counts_rise_ratio_300s, correlation=0.952)
+  - helios_counts_decay_ratio_60s dropped (correlated with helios_counts_decay_ratio_300s, correlation=0.971)
+  - helios_czt_counts dropped (correlated with helios_czt_counts_ema_10s, correlation=0.991)
+  - helios_czt_counts_ema_10s dropped (correlated with helios_czt_counts_ema_30s, correlation=0.996)
+  - helios_czt_counts_ema_30s dropped (correlated with helios_czt_counts_ema_60s, correlation=0.995)
+  - helios_czt_counts_ema_300s dropped (correlated with helios_counts_lag_60s, correlation=0.952)
+  - helios_czt_counts_roll_mean_30s dropped (correlated with helios_czt_counts_ema_60s, correlation=0.994)
+  - helios_czt_counts_ema_60s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.992)
+  - helios_czt_counts_roll_min_30s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.960)
+  - helios_czt_counts_roll_max_30s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.987)
+  - helios_czt_counts_roll_range_30s dropped (correlated with helios_czt_counts_roll_std_30s, correlation=0.961)
+  - helios_czt_counts_roll_rms_30s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.998)
+  - helios_czt_counts_roll_mean_60s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.991)
+  - helios_czt_counts_ma_ratio_60s dropped (correlated with helios_czt_counts_ma_ratio_30s, correlation=0.987)
+  - helios_czt_counts_peak_prom_30s dropped (correlated with helios_czt_counts_peak_prom_60s, correlation=0.970)
+  - helios_czt_counts_roll_median_60s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.990)
+  - helios_czt_counts_roll_max_60s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.979)
+  - helios_czt_counts_roll_std_60s dropped (correlated with helios_czt_counts_roll_range_60s, correlation=0.974)
+  - helios_czt_counts_roll_rms_60s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.992)
+  - helios_czt_counts_roll_cv_30s dropped (correlated with helios_czt_counts_roll_cv_60s, correlation=0.969)
+  - helios_czt_counts_peak_prom_300s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.955)
+  - helios_czt_counts_roll_median_300s dropped (correlated with helios_czt_counts_roll_mean_300s, correlation=0.977)
+  - helios_czt_counts_roll_max_300s dropped (correlated with helios_czt_counts_roll_std_300s, correlation=0.968)
+  - helios_czt_counts_roll_range_300s dropped (correlated with helios_czt_counts_roll_std_300s, correlation=0.980)
+  - helios_czt_counts_roll_rms_300s dropped (correlated with helios_czt_counts_roll_mean_300s, correlation=0.991)
+  - helios_czt_counts_slope_30s dropped (correlated with helios_czt_counts_acceleration_30s, correlation=0.951)
+  - helios_czt_counts_lag_10s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.987)
+  - helios_czt_counts_lag_30s dropped (correlated with helios_czt_counts_roll_median_30s, correlation=0.973)
+  - helios_czt_counts_z_score_60s dropped (correlated with helios_czt_counts_ma_ratio_30s, correlation=0.953)
+  - helios_czt_counts_roll_skew_60s dropped (correlated with helios_czt_counts_roll_cv_60s, correlation=0.966)
+  - helios_czt_counts_anomaly_score_300s dropped (correlated with helios_czt_counts_anomaly_score_60s, correlation=0.966)
+  - helios_czt_counts_roll_skew_300s dropped (correlated with helios_czt_counts_roll_cv_300s, correlation=0.975)
+  - helios_czt_counts_rise_ratio_300s dropped (correlated with helios_czt_counts_rise_ratio_60s, correlation=0.976)
+  - helios_czt_counts_decay_ratio_60s dropped (correlated with helios_czt_counts_decay_ratio_300s, correlation=0.972)
+  - solexs_helios_cov_300s dropped (correlated with solexs_counts_roll_var_300s, correlation=0.950)
+  - seconds_since_observation_start dropped (correlated with elapsed_observation_fraction, correlation=1.000)
+Features remaining after filtering: 125
+  - Successfully included Random Forest feature importance.
+  - Successfully included XGBoost feature importance.
+  - Successfully included LightGBM feature importance.
+
+==================================================
+TOP 30 SELECTED FEATURES (Ranked):
+==================================================
+01. hardness_ratio_czt_cdte_roll_std_60s | Average Normalized Score: 0.05662
+02. helios_czt_counts_roll_cv_300s      | Average Normalized Score: 0.05238
+03. helios_counts_roll_kurt_300s        | Average Normalized Score: 0.04529
+04. helios_czt_counts_roll_mean_300s    | Average Normalized Score: 0.03804
+05. helios_czt_counts_roll_std_300s     | Average Normalized Score: 0.03689
+06. helios_counts_roll_cv_300s          | Average Normalized Score: 0.03274
+07. hardness_ratio_czt_solexs_roll_std_60s | Average Normalized Score: 0.03150
+08. solexs_counts_ema_300s              | Average Normalized Score: 0.03150
+09. solexs_counts_roll_range_60s        | Average Normalized Score: 0.02831
+10. elapsed_observation_fraction        | Average Normalized Score: 0.02730
+11. hardness_ratio_czt_solexs_roll_mean_60s | Average Normalized Score: 0.02659
+12. helios_czt_counts_roll_cv_60s       | Average Normalized Score: 0.02621
+13. solexs_counts_roll_cv_300s          | Average Normalized Score: 0.02189
+14. helios_counts_roll_var_300s         | Average Normalized Score: 0.02131
+15. solexs_counts_roll_var_60s          | Average Normalized Score: 0.02127
+16. hardness_ratio_czt_cdte_roll_mean_60s | Average Normalized Score: 0.02112
+17. helios_czt_counts_roll_kurt_300s    | Average Normalized Score: 0.01976
+18. solexs_counts_roll_var_300s         | Average Normalized Score: 0.01652
+19. helios_czt_corr_300s                | Average Normalized Score: 0.01525
+20. hardness_ratio_roll_mean_60s        | Average Normalized Score: 0.01467
+21. solexs_counts_ema_diff_60_300s      | Average Normalized Score: 0.01285
+22. solexs_counts_roll_cv_30s           | Average Normalized Score: 0.01277
+23. helios_czt_counts_z_score_300s      | Average Normalized Score: 0.01164
+24. solexs_counts_roll_range_300s       | Average Normalized Score: 0.01124
+25. solexs_counts_lag_300s              | Average Normalized Score: 0.01101
+26. helios_counts_z_score_300s          | Average Normalized Score: 0.01076
+27. helios_czt_counts_roll_var_300s     | Average Normalized Score: 0.01053
+28. helios_czt_counts_dist_max_300s     | Average Normalized Score: 0.00970
+29. helios_counts_roll_max_300s         | Average Normalized Score: 0.00923
+30. helios_counts_roll_kurt_60s         | Average Normalized Score: 0.00859
+
+==================================================
+REJECTED FEATURES (Lowest Importance):
+==================================================
+31. helios_czt_counts_roll_kurt_60s     | Average Normalized Score: 0.00854
+32. solexs_counts_roll_var_30s          | Average Normalized Score: 0.00847
+33. helios_counts_decay_ratio_300s      | Average Normalized Score: 0.00802
+34. helios_counts_roll_std_30s          | Average Normalized Score: 0.00802
+35. helios_counts_roll_skew_60s         | Average Normalized Score: 0.00727
+36. helios_counts_anomaly_score_300s    | Average Normalized Score: 0.00706
+37. helios_czt_counts_ema_diff_60_300s  | Average Normalized Score: 0.00681
+38. helios_counts_roll_std_60s          | Average Normalized Score: 0.00657
+39. solexs_counts_roll_cv_60s           | Average Normalized Score: 0.00642
+40. hardness_ratio_czt_solexs           | Average Normalized Score: 0.00638
+41. solexs_counts_peak_prom_300s        | Average Normalized Score: 0.00602
+42. solexs_counts_dist_min_300s         | Average Normalized Score: 0.00596
+43. helios_counts_anomaly_score_60s     | Average Normalized Score: 0.00572
+44. solexs_counts_roll_range_30s        | Average Normalized Score: 0.00569
+45. helios_czt_counts_roll_range_60s    | Average Normalized Score: 0.00562
+46. helios_czt_counts_anomaly_score_60s | Average Normalized Score: 0.00548
+47. helios_counts_ema_diff_10_60s       | Average Normalized Score: 0.00535
+48. solexs_counts_roll_kurt_300s        | Average Normalized Score: 0.00528
+49. solexs_counts_slope_30s             | Average Normalized Score: 0.00502
+50. helios_czt_counts_decay_ratio_300s  | Average Normalized Score: 0.00498
+51. helios_counts_roll_var_60s          | Average Normalized Score: 0.00497
+52. hardness_ratio                      | Average Normalized Score: 0.00491
+53. helios_czt_counts_roll_var_60s      | Average Normalized Score: 0.00489
+54. helios_czt_counts_lag_300s          | Average Normalized Score: 0.00485
+55. solexs_counts_decay_ratio_60s       | Average Normalized Score: 0.00470
+56. helios_counts_dist_max_300s         | Average Normalized Score: 0.00444
+57. solexs_counts_anomaly_score_300s    | Average Normalized Score: 0.00438
+58. helios_czt_counts_ema_diff_10_60s   | Average Normalized Score: 0.00430
+59. solexs_counts_rise_ratio_60s        | Average Normalized Score: 0.00426
+60. solexs_counts_ma_ratio_300s         | Average Normalized Score: 0.00419
+61. helios_czt_counts_dist_max_60s      | Average Normalized Score: 0.00411
+62. solexs_helios_corr_300s             | Average Normalized Score: 0.00411
+63. solexs_counts_dist_max_60s          | Average Normalized Score: 0.00410
+64. helios_counts_dist_min_300s         | Average Normalized Score: 0.00409
+65. helios_counts_ema_diff_60_300s      | Average Normalized Score: 0.00407
+66. solexs_d2Flux_dt2                   | Average Normalized Score: 0.00400
+67. helios_czt_counts_roll_std_30s      | Average Normalized Score: 0.00391
+68. solexs_counts_ma_ratio_60s          | Average Normalized Score: 0.00389
+69. helios_czt_counts_acceleration_30s  | Average Normalized Score: 0.00380
+70. solexs_counts_decay_ratio_300s      | Average Normalized Score: 0.00373
+71. hardness_change                     | Average Normalized Score: 0.00356
+72. solexs_counts_anomaly_score_60s     | Average Normalized Score: 0.00349
+73. hardness_change_czt_solexs          | Average Normalized Score: 0.00343
+74. solexs_counts_ma_ratio_30s          | Average Normalized Score: 0.00337
+75. solexs_counts_dist_min_60s          | Average Normalized Score: 0.00320
+76. helios_czt_counts_ma_ratio_30s      | Average Normalized Score: 0.00317
+77. solexs_counts_dist_max_300s         | Average Normalized Score: 0.00311
+78. helios_counts_dist_max_60s          | Average Normalized Score: 0.00310
+79. helios_counts_roll_var_30s          | Average Normalized Score: 0.00304
+80. hardness_ratio_czt_cdte_roll_slope_60s | Average Normalized Score: 0.00301
+81. helios_counts_z_score_60s           | Average Normalized Score: 0.00301
+82. hardness_ratio_czt_solexs_roll_slope_60s | Average Normalized Score: 0.00299
+83. helios_d2Flux_dt2                   | Average Normalized Score: 0.00293
+84. solexs_counts_z_score_60s           | Average Normalized Score: 0.00292
+85. helios_counts_lag_60s               | Average Normalized Score: 0.00289
+86. solexs_counts_ema_diff_10_60s       | Average Normalized Score: 0.00288
+87. solexs_counts_acceleration_60s      | Average Normalized Score: 0.00278
+88. solexs_counts_rise_ratio_300s       | Average Normalized Score: 0.00263
+89. hardness_change_czt_cdte            | Average Normalized Score: 0.00263
+90. hardness_ratio_roll_slope_60s       | Average Normalized Score: 0.00251
+91. helios_czt_counts_dist_min_300s     | Average Normalized Score: 0.00247
+92. helios_czt_counts_slope_60s         | Average Normalized Score: 0.00242
+93. solexs_counts_z_score_300s          | Average Normalized Score: 0.00230
+94. helios_czt_d2Flux_dt2               | Average Normalized Score: 0.00229
+95. solexs_counts_peak_prom_30s         | Average Normalized Score: 0.00214
+96. solexs_dFlux_dt                     | Average Normalized Score: 0.00208
+97. helios_czt_counts_dist_min_60s      | Average Normalized Score: 0.00189
+98. helios_counts_lag_300s              | Average Normalized Score: 0.00175
+99. normalized_flux_ratio               | Average Normalized Score: 0.00172
+100. hardness_ratio_czt_cdte             | Average Normalized Score: 0.00150
+101. cdte_czt_agreement                  | Average Normalized Score: 0.00144
+102. helios_counts_lag_10s               | Average Normalized Score: 0.00144
+103. helios_czt_dFlux_dt                 | Average Normalized Score: 0.00126
+104. solexs_counts_peak_prom_60s         | Average Normalized Score: 0.00125
+105. helios_counts_slope_60s             | Average Normalized Score: 0.00112
+106. helios_counts_slope_30s             | Average Normalized Score: 0.00091
+107. helios_czt_counts_roll_var_30s      | Average Normalized Score: 0.00089
+108. helios_czt_counts_rise_ratio_60s    | Average Normalized Score: 0.00052
+109. helios_czt_counts_lag_60s           | Average Normalized Score: 0.00050
+110. helios_counts_acceleration_30s      | Average Normalized Score: 0.00038
+111. helios_dFlux_dt                     | Average Normalized Score: 0.00034
+112. helios_czt_counts_acceleration_60s  | Average Normalized Score: 0.00019
+113. helios_counts_ma_ratio_30s          | Average Normalized Score: 0.00014
+114. helios_czt_counts_ma_ratio_300s     | Average Normalized Score: 0.00013
+115. helios_counts_rise_ratio_300s       | Average Normalized Score: 0.00012
+116. helios_counts_ma_ratio_300s         | Average Normalized Score: 0.00008
+117. helios_czt_counts_peak_prom_60s     | Average Normalized Score: 0.00007
+118. helios_counts_dist_min_60s          | Average Normalized Score: 0.00006
+119. helios_counts_acceleration_60s      | Average Normalized Score: 0.00005
+120. helios_counts_peak_prom_30s         | Average Normalized Score: 0.00004
+121. helios_czt_counts_roll_median_30s   | Average Normalized Score: 0.00001
+122. helios_counts_peak_prom_300s        | Average Normalized Score: 0.00001
+123. helios_counts_roll_min_300s         | Average Normalized Score: 0.00000
+124. helios_czt_counts_roll_min_60s      | Average Normalized Score: 0.00000
+125. helios_czt_counts_roll_min_300s     | Average Normalized Score: 0.00000
