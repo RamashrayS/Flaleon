@@ -37,7 +37,20 @@ Feature_count: **227**
 **Random Forest**  
 Metrics from the latest run:  
 
-<img alt="Random_FOrest_metrics" src="https://github.com/user-attachments/assets/cc73fb1c-7c8f-41f3-815b-b3e5046b5368" width="70%"/>  
+| Metric | Value | Notes |
+| :--- | :---: | :--- |
+| **Accuracy** | **99.96%** | High classification accuracy on raw observations |
+| **Precision** | **93.99%** | Very low false alarm rate |
+| **Recall** | **99.07%** | Misses less than 1% of active flare intervals |
+| **Macro F1 Score** | **98.22%** | Balanced performance across Quiet and Flare classes |
+| **MCC** | **0.9648** | Strong correlation with ground truth |
+| **ROC-AUC** | **0.99998** | Nearly perfect class separation capability |
+| **PR-AUC** | **0.9977** | Outstanding Precision-Recall envelope |
+| **Optimal Threshold** | **0.62** | Optimizes validation composite metric |
+| **Training Time** | **125.19s** | Trained in ~2 minutes using 12 CPU cores |
+| **Inference Time / Sample** | **0.94 μs** | Sub-microsecond latency per second of data |
+| **Model Size** | **8.35 MB** | Compact model file storage size |
+| **RAM Used** | **969.1 MB** | Peak memory consumption during training |
 
 ---
 
