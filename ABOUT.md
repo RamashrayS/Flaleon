@@ -42,32 +42,56 @@ graph TD
     I --> K[XGBoost]
     I --> L[LightGBM]
     I --> M[CatBoost]
-    J & K & L --> N[Experiment Logging<br/>metrics.json, predictions.png, model.joblib]
+    J & K & L & M --> N[Experiment Logging<br/>metrics.json, predictions.png, model.joblib]
 ```
+
+---
+
+## 🎯 Machine Learning Tasks
+
+To support robust space weather operational requirements, the framework defines three key machine learning prediction tasks:
+
+1. **Task A: Nowcasting / Real-Time Detection (`flare_now`)**
+   * **Target:** Predict whether a solar flare event is currently occurring (`1`) or if the Sun is quiet (`0`) at any given second.
+   * **Application:** Instantaneous automated space weather alert systems.
+
+2. **Task B: Flare Forecasting (`flare_future`)**
+   * **Target:** Predict whether a solar flare onset will occur within a future window (5-minute, 10-minute, or 30-minute horizons). Default standard is the **10-minute horizon**.
+   * **Application:** Strategic preparation and mitigation for satellite and communication operators.
+
+3. **Task C: Classification & Magnitude Estimation (`flare_class`)**
+   * **Target:** Categorize solar activity into four ordinal classes:
+     * `0`: **Quiet** (No flare/background activity)
+     * `1`: **C-Class** (Common, minor solar flare)
+     * `2`: **M-Class** (Moderate, potentially disruptive flare)
+     * `3`: **X-Class** (Extreme, high-energy flare event)
+   * **Application:** Predictive assessment of space weather severity and geomagnetic storm risks.
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-solarflare-ai/
+Flaleon/
 ├── data/
 │   ├── raw/                 # Raw ISSDC data organized by date
 │   │   └── 2026-06-21/      # Example: YYYY-MM-DD
 │   ├── processed/           # Processed datasets and dataset_info.json
 │   └── labels/              # Flare catalogs (e.g., GOES catalog CSVs)
 ├── src/
-│   ├── data_ingestion/      # Discovering and reading raw FITS files
+│   ├── data/                # Discovering and reading raw FITS files
 │   │   └── ingest.py
 │   ├── preprocessing/       # Timestamp alignment and dataset builder
 │   │   ├── alignment.py
 │   │   └── dataset_builder.py
-│   ├── features/            # Feature extraction (flux derivatives, rolling, lags, trends)
-│   │   └── engineering.py
+│   ├── features/            # Feature extraction and selection
+│   │   ├── engineering.py
+│   │   └── selection.py
 │   ├── labeling/            # Modular labeling (Catalog / Threshold)
 │   │   └── labeler.py
 │   ├── training/            # Model training, split, hyperparams
-│   │   └── train.py
+│   │   ├── train.py
+│   │   └── run_cross_split_validation.py
 │   ├── inference/           # Inference pipeline and deployment code
 │   │   └── predict.py
 │   └── utils/               # Configurations, metrics, and visualization
@@ -81,7 +105,7 @@ solarflare-ai/
 ├── docs/                    # Technical documentation
 ├── run_pipeline.py          # End-to-end automation runner
 ├── DATA.md                  # Discovered FITS format documentation
-└── README.md                # Project landing page (this file)
+└── README.md                # Project landing page
 ```
 
 
