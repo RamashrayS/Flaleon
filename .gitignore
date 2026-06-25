@@ -94,4 +94,6 @@ experiments/scientific_validation_report.json
 # Cache
 catboost_info/
 .DS_Store
+current.md
+
 
