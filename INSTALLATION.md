@@ -1,6 +1,4 @@
----
-
-## ⚙️ Installation
+# ⚙️ Installation
 
 Ensure you have Python 3.8+ installed. Install the package dependencies using:
 
@@ -9,8 +7,6 @@ pip install -r requirements.txt
 ```
 
 *(If using an externally managed system-wide Python environment, append `--break-system-packages` or set up a virtual environment).*
-
----
 
 ## ⚡ Usage Examples
 
