@@ -1,4 +1,5 @@
-
+Naming Format:
+*Split_(train/validation/test)*
 
 | Split                  |    Accuracy |         F1 |        MCC |     ROC-AUC |      PR-AUC |
 | ---------------------- | ----------: | ---------: | ---------: | ----------: | ----------: |
