@@ -1,4 +1,4 @@
-# ⚙️ Installation
+# Installation
 
 Ensure you have Python 3.8+ installed. Install the package dependencies using:
 
@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 *(If using an externally managed system-wide Python environment, append `--break-system-packages` or set up a virtual environment).*
 
-## ⚡ Usage Examples
+## Usage Examples
 
 ### Running the End-to-End Pipeline
 To run the entire data preprocessing, labeling, model training, and model comparison reports on local files, run:
@@ -52,7 +52,7 @@ df_labeled = label_dataset(df_features)
 
 ---
 
-## 📈 ML Experiments & Evaluation
+## ML Experiments & Evaluation
 
 The training framework automatically prevents data leakage by executing **chronological/time-based splits** (Train: 70%, Val: 15%, Test: 15%) rather than random splits, maintaining the sequence of flare evolution.
 
@@ -71,7 +71,7 @@ Each run under `experiments/experiment_XXX/` saves a comprehensive suite of diag
 
 ---
 
-## 📖 Operational Guide: Data Expansion & Model Execution
+## Operational Guide: Data Expansion & Model Execution
 
 ### 1. How to Add More Data for Training
 The pipeline is designed to dynamically discover and ingest any new observation days without code modifications. To add a new day:
