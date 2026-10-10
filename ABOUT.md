@@ -1,6 +1,6 @@
 # ✍ About
 
-## 🌌 Scientific Motivation
+## Scientific Motivation
 
 Solar flares are sudden, intense eruptions of electromagnetic radiation on the Sun, releasing up to $10^{25}$ joules of energy. These events can trigger Coronal Mass Ejections (CMEs), which interact with the Earth's magnetosphere, leading to geomagnetic storms. These space weather disturbances pose severe risks to:
 * Satellite communications and GPS navigation
@@ -13,7 +13,7 @@ Early prediction (forecasting) and real-time detection (nowcasting) of solar fla
 
 ---
 
-## 🛰️ Aditya-L1 Payload Description
+## Aditya-L1 Payload Description
 
 Aditya-L1 is India's pioneering coronagraphy satellite orbiting at the Sun-Earth Lagrangian Point L1. This system integrates data from:
 1. **SoLEXS (Solar Low Energy X-ray Spectrometer):**
@@ -25,7 +25,7 @@ Aditya-L1 is India's pioneering coronagraphy satellite orbiting at the Sun-Earth
 
 ---
 
-## 🔄 Data Pipeline Diagram
+## Data Pipeline Diagram
 
 ```mermaid
 graph TD
@@ -47,7 +47,7 @@ graph TD
 
 ---
 
-## 🎯 Machine Learning Tasks
+## Machine Learning Tasks
 
 To support robust space weather operational requirements, the framework defines three key machine learning prediction tasks:
 
@@ -69,7 +69,7 @@ To support robust space weather operational requirements, the framework defines 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 Flaleon/
